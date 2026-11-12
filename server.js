@@ -1,3 +1,4 @@
+import { registerChat } from './chat-api.js';
 import 'dotenv/config';
 import express from 'express';
 import path from 'node:path';
@@ -8,6 +9,7 @@ const app = express();
 const port = Number(process.env.PORT || 3000);
 const root = path.dirname(fileURLToPath(import.meta.url));
 app.use(express.json({ limit: '20kb' }));
+registerChat(app);
 app.use(express.static(path.join(root, 'public')));
 
 const tripSchema = {
