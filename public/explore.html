@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWays | Explore</title>
+    <link rel="stylesheet" href="explore.css">
+<script defer data-domain="wanderways.tiiny.site" src="https://analytics.tiiny.net/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+<body>
+<header class="navbar">
+    <div class="logo">🏔️ Wander<span>Ways</span></div>
+
+    <nav>
+        <a href="index.html">⌖ Home</a>
+        <a href="#">☑️ Travels</a>
+        <a href="explore.html" class="active">◎ Explore</a>
+        <a href="#">▦ My Plan</a>
+    </nav>
+
+    <button class="login">🟢 Login</button>
+</header>
+
+<section class="page-heading">
+    <h1>Explore Destinations, Hotels & Restaurants</h1>
+    <p>Discover amazing places and the best stays & dining experiences around the world.</p>
+</section>
+
+<main>
+
+<section class="explore-section" id="destinations">
+
+    <div class="section-content">
+
+        <div class="section-heading">
+            <h2>📍 Famous Destinations</h2>
+
+            <div class="tabs">
+                <button class="scope-btn active" data-scope="domestic">🇮🇳 Domestic</button>
+                <button class="scope-btn" data-scope="international">🌐 International</button>
+            </div>
+        </div>
+
+        <div class="destination-grid">
+
+            <article class="destination-card"
+                data-scope="domestic"
+                data-tags="hill nature family under15">
+
+                <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=700" alt="Munnar">
+                <div class="card-info">
+                    <span class="category">Hill Station</span>
+                    <h3>Munnar, Kerala</h3>
+                    <p>📍 Kerala, India</p>
+                    <p>Lush tea gardens, misty hills and beautiful views.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                data-scope="domestic"
+                data-tags="beach nature couple under15">
+
+                <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=700" alt="Goa">
+                <div class="card-info">
+                    <span class="category">Beach</span>
+                    <h3>Goa</h3>
+                    <p>📍 Goa, India</p>
+                    <p>Beautiful beaches and vibrant nightlife.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                data-scope="domestic"
+                data-tags="waterfalls nature family under15">
+
+                <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=700" alt="Waterfalls">
+                <div class="card-info">
+                    <span class="category">Waterfalls</span>
+                    <h3>Athirappilly Falls</h3>
+                    <p>📍 Kerala, India</p>
+                    <p>Majestic waterfalls and lush green surroundings.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                data-scope="domestic"
+                data-tags="adventure hill solo above30">
+
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700" alt="Himachal">
+                <div class="card-info">
+                    <span class="category">Adventure</span>
+                    <h3>Manali, Himachal</h3>
+                    <p>📍 Himachal Pradesh, India</p>
+                    <p>Snowy mountains and adventure sports.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+            <!-- INTERNATIONAL DESTINATIONS -->
+
+            <article class="destination-card"
+                data-scope="international"
+                data-tags="beach nature couple above30">
+
+                <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=700" alt="Maldives">
+                <div class="card-info">
+                    <span class="category">Island</span>
+                    <h3>Maldives</h3>
+                    <p>📍 Maldives</p>
+                    <p>Crystal-clear waters and luxury island escapes.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                data-scope="international"
+                data-tags="historical city nature family above30">
+
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700" alt="Switzerland">
+                <div class="card-info">
+                    <span class="category">Nature</span>
+                    <h3>Switzerland</h3>
+                    <p>📍 Switzerland</p>
+                    <p>Beautiful alpine villages and mountain views.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                data-scope="international"
+                data-tags="historical city couple above30">
+
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=700" alt="Paris">
+                <div class="card-info">
+                    <span class="category">City Tour</span>
+                    <h3>Paris, France</h3>
+                    <p>📍 France</p>
+                    <p>Romantic streets and iconic landmarks.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+            <article class="destination-card"
+                data-scope="international"
+                data-tags="adventure beach solo above30">
+
+                <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=700" alt="Bali">
+                <div class="card-info">
+                    <span class="category">Adventure</span>
+                    <h3>Bali, Indonesia</h3>
+                    <p>📍 Indonesia</p>
+                    <p>Tropical landscapes and cultural experiences.</p>
+                    <button>Explore →</button>
+                </div>
+            </article>
+
+        </div>
+    </div>
+
+    <aside class="filter-panel" id="destinationFilters">
+
+        <div class="filter-header">
+            <h3>⚑ Filter Destinations</h3>
+            <button class="close-filter">×</button>
+        </div>
+
+        <div class="filter-group">
+            <h4>Destination Type</h4>
+            <label><input type="checkbox" value="hill"> Hill Station</label>
+            <label><input type="checkbox" value="beach"> Beach Spot</label>
+            <label><input type="checkbox" value="waterfalls"> Waterfalls</label>
+            <label><input type="checkbox" value="adventure"> Adventure</label>
+            <label><input type="checkbox" value="historical"> Historical</label>
+            <label><input type="checkbox" value="religious"> Religious</label>
+            <label><input type="checkbox" value="city"> City Tour</label>
+            <label><input type="checkbox" value="nature"> Nature</label>
+            <label><input type="checkbox" value="wildlife"> Wildlife</label>
+            <label><input type="checkbox" value="island"> Island</label>
+        </div>
+
+        <div class="filter-group">
+            <h4>Experience</h4>
+            <label><input type="checkbox" value="family"> Family Friendly</label>
+            <label><input type="checkbox" value="solo"> Solo Travel</label>
+            <label><input type="checkbox" value="couple"> Couple Friendly</label>
+            <label><input type="checkbox" value="group"> Group Tour</label>
+        </div>
+
+        <div class="filter-group">
+            <h4>Price Range (per person)</h4>
+            <label><input type="checkbox" value="under5"> Under ₹5K</label>
+            <label><input type="checkbox" value="under15"> ₹5K – ₹15K</label>
+            <label><input type="checkbox" value="under30"> ₹15K – ₹30K</label>
+            <label><input type="checkbox" value="above30"> Above ₹30K</label>
+        </div>
+
+        <div class="filter-actions">
+            <button class="clear-filter">Clear All</button>
+            <button class="apply-filter">Apply Filters</button>
+        </div>
+
+    </aside>
+
+    <button class="filter-toggle">⚑ Filters ﹀</button>
+
+</section>
+
+<section class="explore-section" id="hotels">
+
+    <div class="section-content">
+
+        <div class="section-heading">
+            <h2>🛏️ Famous Hotels & Restaurants</h2>
+
+            <div class="tabs">
+                <button class="scope-btn active" data-scope="domestic">🇮🇳 Domestic</button>
+                <button class="scope-btn" data-scope="international">🌐 International</button>
+            </div>
+        </div>
+
+        <div class="destination-grid">
+
+            <article class="destination-card hotel-card"
+                data-scope="domestic"
+                data-kind="hotel"
+                data-tags="5star hotel pool spa restaurant wifi buffet ac south">
+
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700" alt="Luxury Hotel">
+                <div class="card-info">
+                    <span class="category">⭐ 5 Star Hotel</span>
+                    <h3>Taj Lake Palace</h3>
+                    <p>📍 Udaipur, Rajasthan</p>
+                    <p>🏊 Pool &nbsp; 🍽️ Buffet &nbsp; 📶 Wi-Fi</p>
+                    <p class="price">₹12,000 – ₹25,000 / night</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+            <article class="destination-card hotel-card"
+                data-scope="domestic"
+                data-kind="hotel"
+                data-tags="4star hotel pool beach wifi buffet ac">
+
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=700" alt="Resort">
+                <div class="card-info">
+                    <span class="category">⭐ 4 Star Hotel</span>
+                    <h3>Radisson Blu Resort</h3>
+                    <p>📍 Goa</p>
+                    <p>🏊 Pool &nbsp; 🏖️ Beach &nbsp; 📶 Wi-Fi</p>
+                    <p class="price">₹8,000 – ₹15,000 / night</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+            <article class="destination-card hotel-card"
+                data-scope="domestic"
+                data-kind="hotel"
+                data-tags="3star hotel restaurant wifi ac parking">
+
+                <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=700" alt="Hotel Room">
+                <div class="card-info">
+                    <span class="category">⭐ 3 Star Hotel</span>
+                    <h3>The Fern Residency</h3>
+                    <p>📍 Coimbatore</p>
+                    <p>🍽️ Restaurant &nbsp; 📶 Wi-Fi &nbsp; ❄️ AC</p>
+                    <p class="price">₹4,000 – ₹8,000 / night</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+            <article class="destination-card hotel-card"
+                data-scope="domestic"
+                data-kind="restaurant"
+                data-tags="restaurant buffet seaview live continental seafood">
+
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700" alt="Restaurant">
+                <div class="card-info">
+                    <span class="category">🍴 Restaurant</span>
+                    <h3>Sky Lounge Restaurant</h3>
+                    <p>📍 Chennai</p>
+                    <p>🌊 Sea View &nbsp; 🍽️ Buffet</p>
+                    <p class="price">₹1,000 – ₹3,000 / person</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+            <article class="destination-card hotel-card"
+                data-scope="international"
+                data-kind="hotel"
+                data-tags="5star hotel pool spa wifi buffet ac">
+
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=700" alt="International Hotel">
+                <div class="card-info">
+                    <span class="category">⭐ 5 Star Hotel</span>
+                    <h3>Burj Al Arab</h3>
+                    <p>📍 Dubai, UAE</p>
+                    <p>🏊 Pool &nbsp; Spa &nbsp; Buffet</p>
+                    <p class="price">Luxury Stay</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+            <article class="destination-card hotel-card"
+                data-scope="international"
+                data-kind="hotel"
+                data-tags="4star hotel pool beach wifi restaurant">
+
+                <img src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=700" alt="Beach Resort">
+                <div class="card-info">
+                    <span class="category">⭐ 4 Star Hotel</span>
+                    <h3>Ocean Breeze Resort</h3>
+                    <p>📍 Maldives</p>
+                    <p>🏊 Pool &nbsp; 🏖️ Beach &nbsp; Wi-Fi</p>
+                    <p class="price">Luxury Stay</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+            <article class="destination-card hotel-card"
+                data-scope="international"
+                data-kind="hotel"
+                data-tags="3star hotel restaurant wifi ac">
+
+                <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=700" alt="Hotel">
+                <div class="card-info">
+                    <span class="category">⭐ 3 Star Hotel</span>
+                    <h3>Paris City Hotel</h3>
+                    <p>📍 Paris, France</p>
+                    <p>🍽️ Restaurant &nbsp; Wi-Fi &nbsp; AC</p>
+                    <p class="price">Comfortable Stay</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+            <article class="destination-card hotel-card"
+                data-scope="international"
+                data-kind="restaurant"
+                data-tags="restaurant buffet seafood continental live">
+
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700" alt="Fine Dining">
+                <div class="card-info">
+                    <span class="category">🍴 Restaurant</span>
+                    <h3>Ocean View Dining</h3>
+                    <p>📍 Singapore</p>
+                    <p>🌊 Sea View &nbsp; 🍽️ Buffet</p>
+                    <p class="price">Fine Dining</p>
+                    <button>View Details →</button>
+                </div>
+            </article>
+
+        </div>
+    </div>
+
+    <aside class="filter-panel" id="hotelFilters">
+
+        <div class="filter-header">
+            <h3>⚑ Filter Hotels & Restaurants</h3>
+            <button class="close-filter">×</button>
+        </div>
+
+        <div class="filter-group">
+            <h4>Listing Type</h4>
+            <label><input type="checkbox" value="hotel"> Hotels</label>
+            <label><input type="checkbox" value="restaurant"> Restaurants</label>
+        </div>
+
+        <div class="filter-group">
+            <h4>Star Rating</h4>
+            <label><input type="checkbox" value="5star"> ⭐⭐⭐⭐⭐ 5 Stars</label>
+            <label><input type="checkbox" value="4star"> ⭐⭐⭐⭐ 4 Stars</label>
+            <label><input type="checkbox" value="3star"> ⭐⭐⭐ 3 Stars</label>
+            <label><input type="checkbox" value="2star"> ⭐⭐ 2 Stars</label>
+            <label><input type="checkbox" value="1star"> ⭐ 1 Star</label>
+        </div>
+
+        <div class="filter-group">
+            <h4>Property Type</h4>
+            <label><input type="checkbox" value="hotel"> Hotel</label>
+            <label><input type="checkbox" value="resort"> Resort</label>
+            <label><input type="checkbox" value="villa"> Villa</label>
+            <label><input type="checkbox" value="homestay"> Homestay</label>
+            <label><input type="checkbox" value="guesthouse"> Guest House</label>
+            <label><input type="checkbox" value="apartment"> Apartment</label>
+        </div>
+
+        <div class="filter-group">
+            <h4>Facilities / Amenities</h4>
+            <label><input type="checkbox" value="buffet"> Buffet</label>
+            <label><input type="checkbox" value="pool"> Swimming Pool</label>
+            <label><input type="checkbox" value="wifi"> Free Wi-Fi</label>
+            <label><input type="checkbox" value="ac"> AC</label>
+            <label><input type="checkbox" value="gym"> Gym</label>
+            <label><input type="checkbox" value="spa"> Spa</label>
+            <label><input type="checkbox" value="parking"> Parking</label>
+            <label><input type="checkbox" value="restaurant"> Restaurant</label>
+            <label><input type="checkbox" value="beach"> Beach Access</label>
+        </div>
+
+        <div class="filter-group">
+            <h4>Cuisine Type</h4>
+            <label><input type="checkbox" value="south"> South Indian</label>
+            <label><input type="checkbox" value="north"> North Indian</label>
+            <label><input type="checkbox" value="chinese"> Chinese</label>
+            <label><input type="checkbox" value="italian"> Italian</label>
+            <label><input type="checkbox" value="continental"> Continental</label>
+            <label><input type="checkbox" value="seafood"> Seafood</label>
+            <label><input type="checkbox" value="fastfood"> Fast Food</label>
+        </div>
+
+        <div class="filter-actions">
+            <button class="clear-filter">Clear All</button>
+            <button class="apply-filter">Apply Filters</button>
+        </div>
+
+    </aside>
+
+    <button class="filter-toggle">⚑ Filters ﹀</button>
+
+</section>
+
+</main>
+
+<script src="explore.js"></script>
+</body>
+</html>
