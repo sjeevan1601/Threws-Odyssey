@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-id="th-modified">WanderWays - Plan Your Dream Trip</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta property="og:title" content="WanderWays - Plan Your Dream Trip" data-id="th-modified"><meta property="og:image" content="https://tiiny.host/assets/logo-purple-bg.png" data-id="th-modified"><meta property="og:image:width" content="1501" data-id="th-modified"><meta property="og:image:height" content="1501" data-id="th-modified"><meta property="og:image:type" content="image/png" data-id="th-modified"><meta property="og:url" content="https://wanderways.tiiny.site/" data-id="th-modified"><meta property="og:type" content="website" data-id="th-modified"><script defer data-domain="wanderways.tiiny.site" src="https://analytics.tiiny.net/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-icon">
+        <i class="fa-solid fa-mountain"></i>
+        <i class="fa-solid fa-plane plane-badge"></i>
+      </div>
+      <span class="logo-text">Wander<span>Ways</span></span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-item active"><i class="fa-regular fa-compass"></i> Home</a>
+      <a href="#" class="nav-item"><i class="fa-regular fa-square-check"></i> Travels</a>
+      <a href="explore.html" class="nav-item"><i class="fa-regular fa-circle-dot"></i> Explore</a>
+      <a href="#" class="nav-item"><i class="fa-solid fa-grip-vertical"></i> My Plan</a>
+    </nav>
+    <button class="login-btn"><i class="fa-solid fa-circle"></i> Login</button>
+  </header>
+
+  <main class="hero-container">
+    <div class="hero-header">
+      <h1>Plan Your Dream Trip</h1>
+      <p>Discover the world with smart travel planning</p>
+    </div>
+    <div class="glass-card">
+      <div class="toggle-container">
+        <button class="toggle-btn active">
+          <span class="dot"></span> Domestic
+        </button>
+        <button class="toggle-btn">
+          <i class="fa-regular fa-circle-dot"></i> International
+        </button>
+      </div>
+
+      <form class="planner-form" onsubmit="event.preventDefault();">
+        <div class="input-group">
+          <label><i class="fa-solid fa-arrows-up-down-left-right"></i> From</label>
+          <input type="text" placeholder="e.g. Chennai">
+        </div>
+
+        <div class="input-group">
+          <label><i class="fa-solid fa-arrows-up-down-left-right"></i> To</label>
+          <input type="text" placeholder="e.g. Goa">
+        </div>
+
+        <div class="input-group">
+          <label><i class="fa-solid fa-indian-rupee-sign"></i> Budget (INR)</label>
+          <input type="text" placeholder="e.g. 20000">
+        </div>
+
+        <div class="input-group">
+          <label><i class="fa-solid fa-user"></i> No. of Travellers</label>
+          <input type="text" placeholder="e.g. 2">
+        </div>
+
+        <div class="input-group">
+          <label><i class="fa-solid fa-star"></i> Interests</label>
+          <div class="select-input-wrapper">
+            <select required>
+              <option value="" disabled selected>Select Recommendations</option>
+              <option value="adventure">⛰️ Adventure & Mountain Treks</option>
+              <option value="beaches">🏖️ Coastal & Beach Relaxation</option>
+              <option value="culture">⛩️ Heritage & Cultural Sites</option>
+              <option value="foodie">🍜 Local Food & Street Trails</option>
+              <option value="nature">🌲 Wildlife & Nature Safaris</option>
+            </select>
+            <i class="fa-solid fa-chevron-down select-arrow"></i>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label><i class="fa-solid fa-calendar-days"></i> Days</label>
+          <div class="select-input-wrapper">
+            <select required>
+              <option value="" disabled selected>Select Days</option>
+              <option value="1">1 Day Trip</option>
+              <option value="2">2 Days</option>
+              <option value="3">3 Days</option>
+              <option value="4">4 Days</option>
+              <option value="5">5 Days</option>
+              <option value="6">6 Days</option>
+              <option value="7">7 Days</option>
+              <option value="8">8 Days</option>
+              <option value="9">9 Days</option>
+              <option value="10">10 Days</option>
+            </select>
+            <i class="fa-solid fa-chevron-down select-arrow"></i>
+          </div>
+        </div>
+      </form>
+
+      <div class="cta-wrapper">
+        <button class="plan-btn">
+          <i class="fa-regular fa-square"></i> Plan My Trip <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
